@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CalcIcon" translatesAutoresizingMaskIntoConstraints="NO" id="Svb-VV-3je">
+                                <rect key="frame" x="135" y="376" width="144" height="144"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="144" id="D5a-do-yji"/>
+                                    <constraint firstAttribute="height" constant="144" id="k0Q-Ci-mTO"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Financial Calculator" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1TQ-Dp-ycz">
+                                <rect key="frame" x="76.5" y="536" width="261" height="37"/>
+                                <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Better result, Better Future !" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ggx-58-PhP">
+                                <rect key="frame" x="100.5" y="577" width="213" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="0.74976717715231789" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Bcu-3y-fUS"/>
+                        <color key="backgroundColor" red="0.54509803921568623" green="0.039215686274509803" blue="0.81176470588235294" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Ggx-58-PhP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="J2G-45-n5T"/>
+                            <constraint firstItem="Ggx-58-PhP" firstAttribute="top" secondItem="1TQ-Dp-ycz" secondAttribute="bottom" constant="4" id="KNy-Df-dv5"/>
+                            <constraint firstItem="1TQ-Dp-ycz" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Rgo-b5-cLu"/>
+                            <constraint firstItem="1TQ-Dp-ycz" firstAttribute="top" secondItem="Svb-VV-3je" secondAttribute="bottom" constant="16" id="ZU6-Nj-E74"/>
+                            <constraint firstItem="Svb-VV-3je" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="fbG-fy-bjO"/>
+                            <constraint firstItem="Svb-VV-3je" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="feZ-Mc-Urz"/>
+                            <constraint firstItem="Ggx-58-PhP" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="o79-zs-JyL"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="CalcIcon" width="64" height="64"/>
+    </resources>
+</document>

@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  FinancialCalc
+
+  Created by user on 2022-07-27.
+  
+*/
+home = "HOME";
+savings = "SAVINGS";
+mortgage = "MORTGAGE";
+loan = "LOAN";
+clear = "Clear";
+history = "History";
+help = "Help !";
